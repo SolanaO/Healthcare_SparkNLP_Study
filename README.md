@@ -22,7 +22,7 @@ Topic models are unsupervised statistical models that aim to uncover hidden topi
 
 ## Spark NLP Library
 
-<img src="preliminary/imgs/sparknlp.png" width="600" height="200">
+<img src="images/sparknlp.png" width="600" height="200">
 
 Spark NLP is a library created by the [John Snow Labs](https://www.johnsnowlabs.com/) company. It is written in Scala, built upon Apache Spark ML and dedicated to natural language processing tasks. It is scalable (it can be used for distributed applications) and it is developed to provide a unified solution for all NLP tasks. Spark NLP is consistently recognized as the most widely used NLP library in the enterprises.
 
@@ -40,7 +40,7 @@ The dataset consists of about 1000 items returned by Google Scholar after queryi
 
 The pipeline consists of a combination of annotators from both the open source and the licensed versions of Spark NLP. The text corpus is supplied to the pipeline as a Spark dataframe. At each stage, each annotator receives an input of one or more columns, and transforms the dataframe by adding a new column.
 
-<img src="preliminary/imgs/ner_pipeline_large.png" width="840" height="400">
+<img src="images/ner_pipeline_large.png" width="840" height="400">
 
 The raw `text`, which in our case consists of augumented titles (combined title and truncated abstract for more information gathering), is fed into `DocumentAssembler()` that transforms it into `document` type. The `SentenceDetectorDL` breaks it into `sentences`, and the `Tokenizer` breaks it further down into relevant `tokens`. The `StopWordsCleaner` removes all the instances of the words 'colic' and 'equine'. We have now the `clean_tokens`. The `WordEmbeddingsModel` creates 200 dimensional vectors as `word_embeddings` for the pairs of `sentence` and `clean_tokens`. These three columns are then fed to the `MedicalNerModel` that identifies and labels the relevant `ner_med` chunks. The entities are relabeled by the `NerConverterInternal` which now returns the `ner_chunk`. Finally, the output of the `NerModel` goes through the `ChunkKeyPhraseExtractor` that returns one relevant key phrase for each augumented title.
 
@@ -50,23 +50,23 @@ The raw `text`, which in our case consists of augumented titles (combined title 
 
 The pretrained NER model `ner_medmentions_coarse` has the ability to recognize 109 entities, 42 of each are identified in our corpus:
 
-<img src="preliminary/imgs/distribution_original.png" width="800" height="600">
+<img src="images/distribution_original.png" width="800" height="600">
 
 Sample key phrases for three different entities indicate that the model performs quite well in identifying the topics in most of the items:
 
-<img src="preliminary/imgs/phrases_original.png" width="800" height="160">
+<img src="images/phrases_original.png" width="800" height="160">
 &nbsp;
 
 #### The new labels
 
 The new labels, obtained by grouping together some of the original entities while leaving others unchanged.
 
-<img src="preliminary/imgs/ner_new_labels_nonums.png" width="600" height="260">
+<img src="images/ner_new_labels_nonums.png" width="600" height="260">
 &nbsp;
 
 Several examples of key phrases for some of these entities are given below:
 
-<img src="preliminary/imgs/phrases_new.png" width="800" height="160">
+<img src="images/phrases_new.png" width="800" height="160">
 
 ***
 
@@ -74,13 +74,13 @@ To this end we visualize wordclouds based on key phrases for selected entities f
 
 - Original entities recognized by the Spark NLP pretrained model:
 
-<img src="preliminary/imgs/wordclouds_original.png" width="800" height="200">
+<img src="images/wordclouds_original.png" width="800" height="200">
 
 &nbsp;
 
 - New entities obtained by combining the original ones:
 
-<img src="preliminary/imgs/wordclouds_new.png" width="800" height="200">
+<img src="images/wordclouds_new.png" width="800" height="200">
 
 
 ## Files
