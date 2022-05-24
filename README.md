@@ -7,13 +7,13 @@ A description of the project is published in:
 
 ## Table of Contents
 * [General Information](#general-information)
-* [Spark NLP Library](#spark-nlp)
-* [The Data](#data)
-* [The Pipeline](#pipe)
+* [Spark NLP Library](#spark-nlp-library)
+* [The Data](#the-data)
+* [The Pipeline](#the-pipeline)
 * [Results](#results)
 * [Files](#files)
-* [Specifications](#specs)
-* [References](#refs)
+* [Specifications](#specifications)
+* [References](#references)
 <!-- * [License](#license) -->
 
 ## General Information
