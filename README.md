@@ -46,6 +46,10 @@ The raw `text`, which in our case consists of augumented titles (combined title 
 
 ## Results
 
+#### Sample short text annotations
+
+<img src="images/ner_new_labels.png" width="800" height="300">
+
 #### The original labels
 
 The pretrained NER model `ner_medmentions_coarse` has the ability to recognize 109 entities, 42 of each are identified in our corpus:
