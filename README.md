@@ -1,10 +1,5 @@
 # Topic Modelling with Healthcare Spark NLP
 
-A description of the project is published in:
-
-- [Medium blog]().
-
-
 ## Table of Contents
 * [General Information](#general-information)
 * [Spark NLP Library](#spark-nlp-library)
