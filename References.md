@@ -2,7 +2,7 @@
 
 #### Data collection
 
-1. Nandini Saini, [Scraping Information of Reasearch Papers on Google Scholar using Python](https://medium.com/@nandinisaini021/scraping-publications-of-aerial-image-research-papers-on-google-scholar-using-python-a0dee9744728), Medium, Aug. 2021.
+1. N. Saini, [Scraping Information of Reasearch Papers on Google Scholar using Python](https://medium.com/@nandinisaini021/scraping-publications-of-aerial-image-research-papers-on-google-scholar-using-python-a0dee9744728), Medium, Aug. 2021.
 
 
 #### Spark NLP documentation and related information
@@ -13,21 +13,21 @@
 
 #### Spark NLP Medium posts
 
-1. Veysel Kocaman, [Introduction to Spark NLP: Foundations and basic components](https://medium.com/towards-data-science/introduction-to-spark-nlp-foundations-and-basic-components-part-i-c83b7629ed59), Medium, Towards Data Science, Sept. 2019.
+1. V. Kocaman, [Introduction to Spark NLP: Foundations and basic components](https://medium.com/towards-data-science/introduction-to-spark-nlp-foundations-and-basic-components-part-i-c83b7629ed59), Medium, Towards Data Science, Sept. 2019.
 
-2. Veysel Kocaman, [Spark NLP 101: Installation on Mac and Linux](https://medium.com/spark-nlp/introduction-to-spark-nlp-installation-and-getting-started-part-ii-d009f7a177f3), Medium, spark-nlp, Oct. 2019.
+2. V. Kocaman, [Spark NLP 101: Installation on Mac and Linux](https://medium.com/spark-nlp/introduction-to-spark-nlp-installation-and-getting-started-part-ii-d009f7a177f3), Medium, spark-nlp, Oct. 2019.
 
-3. Veysel Kocaman, [Spark NLP 101: LightPipeline](https://medium.com/spark-nlp/spark-nlp-101-lightpipeline-a544e93f20f1), Medium, spark-nlp, Nov. 2019.
+3. V. Kocaman, [Spark NLP 101: LightPipeline](https://medium.com/spark-nlp/spark-nlp-101-lightpipeline-a544e93f20f1), Medium, spark-nlp, Nov. 2019.
 
-4. Veysel Kocaman, [Named entity recognition (NER) with BERT in Spark NLP](https://medium.com/towards-data-science/named-entity-recognition-ner-with-bert-in-spark-nlp-874df20d1d77), Medium, Towards Data Science, March 2020.
+4. V. Kocaman, [Named entity recognition (NER) with BERT in Spark NLP](https://medium.com/towards-data-science/named-entity-recognition-ner-with-bert-in-spark-nlp-874df20d1d77), Medium, Towards Data Science, March 2020.
 
-5. Mustafa Aytug Kaya, [How to get started with Spark NLP in 2 weeks](https://medium.com/towards-data-science/how-to-get-started-with-sparknlp-in-2-weeks-cb47b2ba994d), Medium, Towards Data Science, Aug. 2020.
+5. M. A. Kaya, [How to get started with Spark NLP in 2 weeks](https://medium.com/towards-data-science/how-to-get-started-with-sparknlp-in-2-weeks-cb47b2ba994d), Medium, Towards Data Science, Aug. 2020.
 
-6. Mustafa Aytug Kaya, [How to wrap your head around Spark NLP](https://medium.com/towards-data-science/how-to-wrap-your-head-around-spark-nlp-a6f6a968b7e8), Medium, Towards Data Science, Aug. 2020.
+6. M. A. Kaya, [How to wrap your head around Spark NLP](https://medium.com/towards-data-science/how-to-wrap-your-head-around-spark-nlp-a6f6a968b7e8), Medium, Towards Data Science, Aug. 2020.
 
-7. Jose Juan Martinez, [Google LIT for document clustering visualization with Spark NLP and Spark MLLib](https://medium.com/spark-nlp/google-lit-for-document-cluster-visualization-with-sparknlp-and-spark-mllib-1a0e321083d2), Medium, spark-nlp, Oct. 2021.
+7. J. J. Martinez, [Google LIT for document clustering visualization with Spark NLP and Spark MLLib](https://medium.com/spark-nlp/google-lit-for-document-cluster-visualization-with-sparknlp-and-spark-mllib-1a0e321083d2), Medium, spark-nlp, Oct. 2021.
 
-8. Jose Juan Martinez, [Deploying Spark NLP for Healthcare: from zero to hero](https://medium.com/spark-nlp/deploying-spark-nlp-for-healthcare-from-zero-to-hero-88949b0c866d), Medium, spark-nlp, March 2022.
+8. J. J. Martinez, [Deploying Spark NLP for Healthcare: from zero to hero](https://medium.com/spark-nlp/deploying-spark-nlp-for-healthcare-from-zero-to-hero-88949b0c866d), Medium, spark-nlp, March 2022.
 
 
 #### Scholarly publications
